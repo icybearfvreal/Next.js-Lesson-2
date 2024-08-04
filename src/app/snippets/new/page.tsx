@@ -23,6 +23,7 @@ export default function SnippetCreatePage() {
         redirect('/');
     }
 
+
     return (
         <form action={createSnippet}>
             <h3 className="font-bold m-3">Create a Snippet</h3>
